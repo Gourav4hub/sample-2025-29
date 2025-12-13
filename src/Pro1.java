@@ -24,13 +24,7 @@ public class Pro1 {
 		Student ob = new Student(101, "Vikas", 23, 345.45f);
 		sess.save(ob);
 		
-		Student ob1 = new Student(101, "Vikas", 23, 345.45f);
-		sess.save(ob1);
 		
-		sess.beginTransaction().commit();
-		sess.close();
-		
-		sf.close();
 
 		System.out.println("Done");
 	}
